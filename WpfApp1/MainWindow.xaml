@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Rasspisanie" Height="450" Width="1000">
     <Grid>
+        <DataGrid Margin="0,0,0,230" x:Name="Tablitsa1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Binding="{Binding Name}" Width="30"  />
+                <DataGridTextColumn Header="5А" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="5Б" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="5В" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="5Г" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="6А" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="6Б" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="6В" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="6Г" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="7А" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="7Б" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="7В" Binding="{Binding Name}" Width="*"  />
+                <DataGridTextColumn Header="7Г" Binding="{Binding Name}" Width="*"  />
+            </DataGrid.Columns>
+        </DataGrid>
         
     </Grid>
+    
 </Window>
+    
