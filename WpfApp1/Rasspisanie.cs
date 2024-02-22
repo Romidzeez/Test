@@ -22,7 +22,7 @@ namespace WpfApp1
             this.Year_Of_Education = Year_OF_Education;
             this.Class_Letter = Class_Letter;
         }
-						// каждая таблица как отдельный класс и файл дальше создадим mvc container view system 
+						/// каждая таблица как отдельный класс и файл дальше создадим mvc container view system 
 
     }
 }
