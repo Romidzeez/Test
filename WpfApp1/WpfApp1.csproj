@@ -83,6 +83,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="AppContext.cs" />
+    <Compile Include="Class.cs" />
+    <Compile Include="Class_Time.cs" />
     <Compile Include="Teacher.cs" />
     <Compile Include="Classroom.cs" />
     <Compile Include="MainWindow.xaml.cs">
