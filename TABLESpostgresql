@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS public."Teachers"
+(
+    "Id_Teachers" integer NOT NULL,
+    CONSTRAINT "Teachers_pkey" PRIMARY KEY ("Id_Teachers")
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Teachers"
+    OWNER to postgres;
+	
+CREATE TABLE IF NOT EXISTS public."Subject"
+(
+    "Id_Subject" serial NOT NULL,
+    "Subject_name" name NOT NULL,
+    PRIMARY KEY ("Id_Subject")
+);
+
+ALTER TABLE IF EXISTS public."Subject"
+    OWNER to postgres;
